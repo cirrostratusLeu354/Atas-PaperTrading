@@ -26,7 +26,7 @@ Para ejecutar cualquiera de las siguientes acciones, mantén presionada la tecla
 | **Shift + W** | Abrir posición de **Compra a Mercado** (*Market Buy*). |
 | **Shift + S** | Abrir posición de **Venta a Mercado** (*Market Sell*). |
 | **Shift + A** | **Cierre rápido (*Quick Close*):** Cierra inmediatamente todas las posiciones abiertas y resetea las líneas de TP/SL. |
-| **Shift + R** | Incrementar apalancamiento en $+1$ (máximo x150\text{x}$). |
+| **Shift + R** | Incrementar apalancamiento en $+1$ (`máximo x150`). |
 | **Shift + E** | Reducir apalancamiento en $-1$ (mínimo $1\text{x}$). |
 | **Shift + F** | Incrementar el margen de entrada en $+0.01$. |
 | **Shift + D** | Reducir el margen de entrada en $-0.01$. |
