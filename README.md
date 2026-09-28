@@ -48,7 +48,7 @@ Para ejecutar cualquiera de las siguientes acciones, mantén presionada la tecla
 
 ## Configuración e Instalación
 
-1. Copia el archivo `.cs` en la carpeta de indicadores personalizados de ATAS (generalmente en `Documents/ATAS/Indicators`).
-2. Compila el indicador dentro de la plataforma ATAS.
+1. Con Visual Studio abra el archivo `.slnx`.
+2. Compila el indicador y guardelo en la plataforma ATAS (generalmente en `Documents/ATAS/Indicators`).
 3. Añade **Paper Trading Simulator** al gráfico desde el menú de indicadores (**Trading / Simulation**).
 4. Configura el **Balance** inicial deseado y el **Apalancamiento** desde el panel de propiedades del indicador.
