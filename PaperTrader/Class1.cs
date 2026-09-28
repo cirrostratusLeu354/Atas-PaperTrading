@@ -28,8 +28,10 @@
     [Category("Trading / Simulation")]
     public class PaperTradingSimulator : Indicator
     {
-        //una lista para guardar posiciones
-        //iniciales con m es market y l son limit
+        /*
+         FALTAN LAS FUNCIONES PARA ORDENES LIMITE
+         
+         */
         public enum positionType
         {
             none,
