@@ -496,17 +496,19 @@
                     Equity = (decimal)(Equity-pos.EntryMargin);
                     _balance += (decimal)final;
 
+                    var bar = GetCandle(pos.bar - 1);
+                    if (pos.type == positionType.mbuy)
+                    {
+                        _up[pos.bar - 1] = bar.Low;
+                    }
+                    else if (pos.type == positionType.msell)
+                    {
+                        _down[pos.bar - 1] = bar.High;
+                    }
+
                     if (position.type!=positionType.quick)
                     {
                         contin = false;
-                        var bar = GetCandle(pos.bar-1);
-                        if(pos.type == positionType.mbuy)
-                        {
-                            _up[pos.bar - 1] = bar.Low;
-                        } else if(pos.type==positionType.msell)
-                        {
-                            _down[pos.bar-1] = bar.High;
-                        }
                         Positions.RemoveAt(i);
 
                         break;
